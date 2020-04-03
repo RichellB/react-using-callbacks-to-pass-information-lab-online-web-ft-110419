@@ -7,6 +7,8 @@ export default class Matrix extends Component {
 
   constructor() {
     super()
+    this.state = {
+    selectedColor: '#FFF'
   }
 
   genRow = (vals) => (
